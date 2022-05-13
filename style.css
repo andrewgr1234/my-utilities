@@ -4,6 +4,11 @@ body {
 
 
 /*--------------Timer--------------*/
+form {
+  width: 500px;
+  height: 400px;
+}
+
 input[type=Reset] {
   width: 10%;
   padding: 12px 20px;
@@ -52,8 +57,8 @@ a {
 /*--------------calculator--------------*/
 
 table {
-  width: 700px;
-  height: 600px;
+  width: 500px;
+  height: 400px;
 }
 
 input[type="button"] {
