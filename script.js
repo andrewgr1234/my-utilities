@@ -1,3 +1,5 @@
+//--------------Timer--------------
+
 var audio = new Audio("./elements/alarm.wav");
 var totalAmount = localStorage.getItem('countDown') || 0,
     timeloop;
@@ -51,3 +53,18 @@ $('#countdown').on('reset', function () {
     clearTimeout(timeloop);
     localStorage.removeItem('countDown');
 })
+
+
+//--------------calculator--------------
+
+function dis(val) {
+    document.getElementById("edu").value += val
+}
+function solve() {
+    let x = document.getElementById("edu").value
+    let y = eval(x)
+    document.getElementById("edu").value = y
+}
+function clr() {
+    document.getElementById("edu").value = ""
+}
