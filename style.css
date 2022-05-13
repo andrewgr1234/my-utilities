@@ -23,7 +23,7 @@ input[type=Reset] {
 }
 
 input[type=Input] {
-  width: 15%;
+  width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -75,11 +75,11 @@ input[type="button"] {
 }
 
 input[type="text"] {
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: left;
   background-color: white;
   border-color: black;
   font-size: 30px;
-  height: 98%;
+  height: 100%;
   width: 100%
 }
