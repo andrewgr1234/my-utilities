@@ -1,7 +1,7 @@
 body {
   background-image: url(./elements/backgroung\ pic.jpg);
 }
-h1{
+h1, footer{
   color: white;
 }
 
