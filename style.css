@@ -23,7 +23,7 @@ input[type=Reset] {
 }
 
 input[type=Input] {
-  width: 15%;
+  width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ input[type=Input] {
 }
 
 input[type=Mins] {
-  width:30%;
+  width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
